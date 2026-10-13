@@ -1,0 +1,82 @@
+[
+  {
+    "id": "bj-sh",
+    "name": "北京 → 上海 情报链路",
+    "desc": "情报汇聚与舆情研判",
+    "points": [[116.4074, 39.9042], [121.4737, 31.2304]],
+    "form": "straight",
+    "color": "#2ec3c7",
+    "width": 2.5,
+    "glow": false,
+    "glowWidth": 12,
+    "glowOpacity": 0.10
+  },
+  {
+    "id": "sh-gz",
+    "name": "上海 → 广州 传播链路",
+    "desc": "舆情监测与认知研判",
+    "points": [[121.4737, 31.2304], [113.2644, 23.1291]],
+    "form": "curve",
+    "color": "#2ec3c7",
+    "width": 2,
+    "glow": true,
+    "glowWidth": 12,
+    "glowOpacity": 0.08,
+    "curvature": 0.25,
+    "dashArray": [2, 0],
+    "speed": 600
+  },
+  {
+    "id": "cd-xa",
+    "name": "成都 → 西安 对抗链路",
+    "desc": "智能欺骗与认知博弈",
+    "points": [[104.0668, 30.5728], [108.9398, 34.3416]],
+    "form": "straight",
+    "color": "#F5A146",
+    "width": 2,
+    "glow": false,
+    "dashArray": [2, 8],
+    "speed": 600
+  },
+  {
+    "id": "bj-gz",
+    "name": "北京 → 广州 联合作战",
+    "desc": "跨域协同指挥",
+    "points": [[116.4074, 39.9042], [113.2644, 23.1291]],
+    "form": "straight",
+    "color": "#E74A4A",
+    "width": 1.8,
+    "dashArray": [10, 14],
+    "glow": false,
+    "speed": 600
+  },
+  {
+    "id": "sh-cd",
+    "name": "上海 → 成都 协同链路",
+    "desc": "AI 驱动对抗研判",
+    "points": [[121.4737, 31.2304], [104.0668, 30.5728]],
+    "form": "curve",
+    "color": "#F43F5E",
+    "width": 1.5,
+    "glow": false,
+    "curvature": 0.4,
+    "dashArray": [2, 8],
+    "speed": 600
+  },
+  {
+    "id": "bj-cd-particle",
+    "name": "北京 → 成都 粒子链路",
+    "desc": "粒子动效（form=particle）",
+    "points": [[116.4074, 39.9042], [104.0668, 30.5728]],
+    "form": "particle",
+    "color": "#00d4aa",
+    "width": 1.5,
+    "glow": true,
+    "glowWidth": 5,
+    "glowOpacity": 0.1,
+    "curvature": -0.3,
+    "particleCount": 1,
+    "particleSize": 5,
+    "speed": 5000
+  }
+]
