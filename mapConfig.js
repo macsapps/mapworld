@@ -40,7 +40,7 @@ export const mapConfig = {
 // maplibre 本地副本（与 src/components/map/dist 同文件）：避免 unpkg CDN
 // 单点故障，公网/内网环境均可加载
 export const mapAssets = {
-  css: '/maplibre/maplibre-gl.css',
-  script: '/maplibre/maplibre-gl.js',
+  css: '/mapworld/maplibre/maplibre-gl.css',
+  script: '/mapworld/maplibre/maplibre-gl.js',
 };
 
